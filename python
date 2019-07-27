@@ -1,0 +1,15 @@
+ageDeEricPraline      = 50
+ageDeHenryWensleydale   = 20
+
+# Test
+if 0 > ageDeEricPraline > 150 or ageDeEricPraline > ageDeHenryWensleydale:
+    print("l'age de Eric Praline est incorrect")
+    
+#echange : swap
+ageDeHenryWensleydale, ageDeEricPraline = ageDeEricPraline,ageDeHenryWensleydale
+print("age de Henry Wensleydale = %d , age de Eric Praline = %d" %(ageDeHenryWensleydale,ageDeEricPraline))
+    
+
+#>>>
+#l'age de Eric Praline est incorrect
+#age de Henry Wensleydale = 50 , age de Eric Praline = 20
